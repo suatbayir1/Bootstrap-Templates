@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <title>LRF TEAM</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--TİTLE İCON -->
+    <link rel="shortcut icon" href="images/logo.jpg" />
+    <!--Font Awesome CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Font Awesome CSS-->
+    <!-- link rel="stylesheet" href="css/fontawesome.css"> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--LightBox CSS-->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!--Scroll Reveal JS-->
+    <script src="js/scrollreveal.min.js"></script>
+  </head>
+
+  
+  <script language='JavaScript1.2'>	
+    function disableselect(e)
+    {	
+    return false	
+    }	
+    function reEnable(){	
+    return true	
+    }	
+    document.onselectstart=new Function ("return false")	
+    if (window.sidebar)
+    {	
+    document.onmousedown=disableselect	
+    document.onclick=reEnable	
+    }	
+    </script>  
+
+  <body>
+    <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-md navbar-light fixed-top">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+                        <span class="navbar-toggler-icon renk"></span>
+                    </button>
+                    <a href="#" class="navbar-brand" > 
+                        <img src="images/logo.jpg"/>
+                    </a>
+                    <div class="collapse navbar-collapse" id="navMenu">
+                        <ul class="navbar-nav ml-auto ">           <!--ml-auto classı menü den sonrakileri sağa yanaştırır.-->
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">ANASAYFA</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="lrfnedir.html">LRF</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="dropDownEkipmanlar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ÜRÜNLER</a>
+                                <div class="dropdown-menu" aria-labelledby="dropDownEkipmanlar">
+                                    <a class="dropdown-item" href="kamıs.html">Kamış Seçimi</a>
+                                    <a class="dropdown-item" href="makine.html">Makine Seçimi</a>
+                                    <a class="dropdown-item" href="suniyemler.html">Suni Yemler</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="galeri.html">GALERİ</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="hakkımda.html">HAKKIMDA</a>
+                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="iletisim.html">İLETİŞİM</a>
+                            </li>
+                          </ul>
+
+                          <ul class="navbar-nav ml-auto">
+                            <li>                    <!--<i class="fa fa-youtube a" > -->
+                                <a class="nav-link" href="https://www.youtube.com/channel/UCMAbv_-rGDFvtxTyxw-pTlg"><img src="images/y.png"></i></a>
+                            </li>
+                            <li>                    <!-- <i class="fa fa-instagram b"></i> -->
+                                <a class="nav-link " href="http://picbear.com/lrf_team"><img src="images/i.png"> </a>                      
+                            </li>
+                            <li>                    <!-- <i class="fa fa-facebook c"> -->
+                                <a class="nav-link " href="https://www.facebook.com/groups/1643580315684499/"><img src="images/f.png"> </i></a>
+                            </li>
+                          </ul>
+                    
+                    </div>
+                </div>
+            </nav>
+
+            <!--LOGO VE YAZI-->
+
+            <section id="giris" >
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h3 class="text-center">Site Tanıtımı</h3>
+                            <p class="mt-2">Merhaba ben Gürdal Özten. Bu sitede, uzun zamandır yaptığım LRF balık avı hakkındaki deneyimlerim, av fotoğraflarım, av videolarım, ürün bilgileri, ekipman bilgileri ve tamamen kişisel yorumlarım yer almaktadır. Herhangi bir kuruma, işletmeye vs bağlı değildir. </p>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/logo.jpg" alt="LOGO">
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="text-center">Öneriler</h3>
+                            <p class="mt-2">LRF hakkında merak edilen tüm konular için web sitemi detaylı inceleyebilirsiniz. Daha kapsamlı resim, video, ürün tanıtımları ve av teknikleri için sağ üstte linkleri bulunan; youtube, instagram, facebook sayfalarımı takip edebilir ve sorularınızı iletebilirsiniz.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AVLAR -->
+                
+            <section id="avlar">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-md-4">
+                            <img src="images/yuvarlak1.JPG" class="img-fluid rounded-circle" alt="Balık Avı">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h4 class="text-center">Hangi Balıkları Avlayabiliriz ?</h4>
+                            <p>En büyük avantajımız, yakalayabileceğimiz balık türlerinin oldukça fazla olmasıdır. Kaya Balıkları, Levrek, Çupra, İstavrit, Baraküda, Mırmır, Akya, Zargana, Yazılı Orkinos vs bunlardan sadece birkaçıdır.</p>
+                            <p>Detaylı bilgi için <a href="galeri.html"><span>tıklayınız</span></a></p>
+                        </div>
+                        <div class="col-md-4">
+                                <div id="slider1" class="carousel slide" data-ride="carousel" data-interval="3000">
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#slider1" data-slide-to="0" class="active"></li>
+                                          <li data-target="#slider1" data-slide-to="1"></li>
+                                          <li data-target="#slider1" data-slide-to="2"></li>
+                                          <li data-target="#slider1" data-slide-to="3"></li>
+                                          <li data-target="#slider1" data-slide-to="4"></li>
+                                          <li data-target="#slider1" data-slide-to="5"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img class="d-block w-100" src="images/k1.jpg" alt="First slide">       
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k2.jpg" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k3.jpg" alt="Third slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k4.jpg" alt="Third slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k5.jpg" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k6.jpg" alt="Third slide">
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row mt-5 mesafe">
+                        <div class="col-md-4"> 
+                                <div id="slider2" class="carousel slide" data-ride="carousel" data-interval="4000">
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#slider2" data-slide-to="0" class="active"></li>
+                                          <li data-target="#slider2" data-slide-to="1"></li>
+                                          <li data-target="#slider2" data-slide-to="2"></li>
+                                          <li data-target="#slider2" data-slide-to="3"></li>
+                                          <li data-target="#slider2" data-slide-to="4"></li>
+                                          <li data-target="#slider2" data-slide-to="5"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img class="d-block w-100" src="images/k7.jpg" alt="First slide">       
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k8.jpg" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k9.jpg" alt="Third slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k10.jpg" alt="Third slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k11.jpg" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k12.jpg" alt="Third slide">
+                                          </div>
+                                        </div>
+
+                                      </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h4 class="text-center">Hangi Yemleri Kullanmalıyız ?</h4>
+                            <p>Kullandığımız kokulu/kokusuz silikon yem, maket yem, jig  vs. diğer av tekniklerine oranla çok daha küçük ve hafif yemlerdir. </p>
+                            <p>Detaylı bilgi için <a href="suniyemler.html"><span>tıklayınız</span></a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/yuvarlak2.jpg" class="img-fluid rounded-circle" alt="Balık Avı">
+                        </div>
+                    </div>
+
+
+                    <div class="row mt-5 mb-5 mesafe">
+                        <div class="col-md-4">
+                            <img src="images/yuvarlak3.JPG" class="img-fluid rounded-circle" alt="Balık Avı">
+                        </div>
+                        <div class="col-md-4 text-center">     
+                            <h4>LRF Takımı Nasıl Olmalı ?</h4>
+                            <p>Oldukça hafif kamışlar ve küçük ebatta makineler ilk tercihimiz olmalıdır. Bu tercihler, avlanacağımız meralara ve hedef balıklarımıza göre değişkenlik gösterebilir.</p>
+                            <p>Kamış tercihi için <a href="kamıs.html"><span>tıklayınız</span></a></p>
+                            <p>Makine tercihi için <a href="makine.html"><span>tıklayınız</span></a></p>
+                        </div>
+                        <div class="col-md-4">
+                                <div id="slider3" class="carousel slide" data-ride="carousel" data-interval="3000">
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#slider3" data-slide-to="0" class="active"></li>
+                                          <li data-target="#slider3" data-slide-to="1"></li>
+                                          <li data-target="#slider3" data-slide-to="2"></li>
+                                          <li data-target="#slider3" data-slide-to="3"></li>
+                                          <li data-target="#slider3" data-slide-to="4"></li>
+                                          <li data-target="#slider3" data-slide-to="5"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img class="d-block w-100" src="images/k13.jpg" alt="First slide">       
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k14.jpg" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k15.jpg" alt="Third slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k16.jpg" alt="Third slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k17.jpg" alt="Third slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/k18.jpg" alt="Third slide">
+                                          </div>
+                                        </div>  
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Videolar -->
+
+            <section id="videolar">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-md-6 text-center">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/adOnSjlIPoM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <h4 class="mt-3 ">LTF TEAM İstavrit Avı</h4>
+                        </div>
+
+                        <div class="col-md-6 text-center">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RfI0d69667o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <h4 class="mt-3 ">LRF TEAM Akya Avı</h4>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                            <div class="col-md-6 text-center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Gc1i3N8EJF8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <h4 class="mt-3 ">LRF TEAM Zargana ve Yazılı Orkinos Avı</h4>
+                            </div>
+    
+                            <div class="col-md-6 text-center">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/HWPefUZO224" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <h4 class="mt-3 ">LRF TEAM Çatalkuyruk Avı</h4>
+                            </div>
+                        </div>
+
+                    <div class="row text-center yonlendırme mt-3">
+                        <div class="col-md-12">
+                            <p>Diğer youtube videolarımı izlemek için <a href="https://www.youtube.com/channel/UCMAbv_-rGDFvtxTyxw-pTlg"><span>tıklayınız..</span></a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- UZMAN OLMAYAN KİŞİLERE GÜVENMEYİN -->
+            
+            <section id="uzman">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 mt-4">
+                            <h2 class="text-center">Uzman Olmayan Kişilere Güvenmeyin</h2>
+                            <p>LRF (Light Rock Fishing) avcılığı hakkında bilgi sahibi olmasa dahi bir çok kişi yanlış ekipman önerisinde bulunabiliyor. Tabi bu işe yeni başlayacak arkadaşlarımızın hiçbir araştırması olmamış ise bu önerileri göz önünde bulundurarak malzeme alışverişi yapması kaçınılmaz bir son. Bu önerilerin birçoğunun yanlış yönlendirmeler olmasından dolayı sonuç malesef hüsran oluyor. Sadece bu yanlış yönlendirmelerden dolayı LRF avcılığına tam anlamı ile başlamadan uzaklaşan birçok arkadaşımız var. Birbirine uyumsuz ekipmanlar, yanlış zamanda yanlış ürün kullanımları, yanlış mera seçimleri vs. büyük olumsuzluklara neden oluyor.</p>
+                            <p>Malzeme seçimlerinde asıl önemli olan konu, satın almayı düşündüğünüz ürünler hakkında ufak bir araştırma yapmak. İnternet ortamında rahatlıkla ulaşabileceğiniz görseller, bloglar, gruplar vs. ulaşıp rahatlıkla az da olsa bilgi sahibi olabilirsiniz. Bu bilgiler dahilinde kafanızda tasarladığınız seçimleriniz biraz daha netleşecektir. Daha sonrasında ise av yapacağınız meralarınızın kullanacağınız ekipmanlara uygun olup olmadığını gözden geçirmelisiniz. Unutmayın her ürün her merada aynı performansı göstermez .. </p>
+                            <p>Sonuç olarak bir ürün hakkında en doğru bilgiyi, o ürünü kullanan ve test etmiş kişiler verecektir. Elinizden geldiğince bu kişilere ulaşmaya çalışın ve sorular sorun ..</p>
+                            <p>Sorularınız için bana instagram hesabımdan ulaşabilrsiniz.</p>
+                            <p>İnstagram hesabım için <a href="http://picbear.com/lrf_team"><span>tıklayınız..</span></a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/uzmankisiler.jpg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        <!-- FOOTER -->
+                  
+         <footer id="myfooter">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="lead text-center">&copy;by GÜRDAL ÖZTEN</span></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script type="text/JavaScript" src="js/bootstrap.js"></script>
+    <script type="text/JavaScript" src="js/lightbox.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.row',{
+            duration:2000
+        });
+
+        sr.reveal('#giris .col-md-3',{
+            duration:5000
+        });
+
+        sr.reveal('#videolar ul',{
+            duration:5000
+        })
+  
+        sr.reveal('#slider',{
+            duration:2000
+        });
+    </script>
+  </body>
+</html>

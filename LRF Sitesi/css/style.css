@@ -1,0 +1,635 @@
+/* NAVBAR */
+
+.navbar{
+    border-bottom: gray 1px solid;
+    background-color: white;
+    font-size: 20px;
+    height: 50px;
+}
+
+.navbar .renk{
+    margin-bottom: 10px;
+}
+
+.navbar button{
+    height: 40px;
+}
+
+.navbar-brand{
+    color: red !important;
+    font-size: 24px;
+}
+
+.navbar li{
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.navbar-brand img{
+    height: 40px;
+    width: 100px;
+}
+
+.navbar fa{
+    font-size: 20px !important;
+}
+
+.navbar i{
+ 
+    padding-left: 10px;
+}
+
+.bg-dark{
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.nav-link{
+    color: green !important; 
+    transition: color .5s ease; 
+    text-transform: uppercase;
+    font-size: 18px;
+   
+}
+
+.nav-link .a{
+    color: #bb0000;
+}
+
+.nav-link .b{
+    color: #517fa4;
+}
+
+.nav-link .c{
+    color:#3b5998;
+}
+
+.nav-link:hover{
+    color: red !important; 
+}
+
+
+/* GİRİŞ */
+
+#giris{
+    margin-top: 100px;
+}
+
+#giris h3{
+    color: green;
+    font-size: 20px;
+}
+
+#giris img{
+    margin-top: -50px;
+    height: 250px;
+    width: 100%;
+}
+
+#giris p{
+    font-size: 15px;
+    font-style: italic;
+}
+
+#giris blockquote{
+    text-align: center;
+    font-size: 15px;
+    color: green;
+}
+
+/* AVLAR */
+
+#avlar{
+    margin-top: 30px;
+}
+
+#avlar img{
+    height: 240px;
+    width: 300px;
+}
+
+#avlar .saga{
+    text-align: right;
+}
+
+#avlar h4{
+    color: #1886c7; 
+    font-size: 20px;
+}
+
+#avlar .cizgi{
+    margin-right: 150px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 150px;
+    height: 200px;
+    background-color: #1886c7;
+    width: 5px;
+}
+
+#avlar span{
+    color: red;
+}
+
+
+
+/* videolar */
+
+#videolar{
+    margin-top: 100px;
+}
+
+#videolar iframe{
+    height: 300px;
+    width: 100%;
+}
+
+#videolar img{
+    width:100%;
+    height: 300px;
+}
+
+#videolar ul{
+    list-style-type: none;
+    margin-left: 110px;
+}
+
+#videolar .fa{
+    font-size: 50px;
+}
+
+#videolar h4{
+    color: red;
+}
+
+#videolar .fa{
+    color: red;
+}
+
+#videolar .hizala{
+    margin-top: -100px;
+}
+
+#videolar .yonlendırme{
+    font-size: 30px;
+    font-style: italic;
+    color: #1886c7;
+}
+
+#videolar span{
+    color: red;
+}
+
+/* UZMAN */
+
+#uzman{
+    margin-top: 100px;
+}
+
+#uzman img{
+    margin-top: 30px;
+    width:100%px;
+    height: 380px;
+}
+
+#uzman h2{
+    margin-top: -35px;
+    font-style: italic;
+    color: red;
+    font-size: 25px;
+}
+
+#uzman p{
+    font-size: 14.8px;
+    font-style: italic;
+}
+
+#uzman span{
+    color: red;
+}
+
+/* WHAT WE DO */
+
+#whatwedo {
+    margin-top: 100px;
+    background: linear-gradient(
+        rgba(0,0,0,.7),
+        rgba(0,0,0,.7)
+    ),
+    url(../images/whatwedo.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#whatwedo h2{
+    margin-top: 110px;
+    font-size: 40px;
+    color: #1886c7;
+}
+
+
+/* SLİDER */
+
+#slider{
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+
+#slider img{
+    height: 400px;
+}
+
+/* footer */
+
+#myfooter{
+    margin-top: 50px;
+    background-color: #1886c7;
+}
+
+#myfooter p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: 15px;
+}
+
+#myfooter span{
+    float: right;
+}
+
+/* HAKKIMDA */
+
+#hakkımda{
+    margin-top: 60px;
+
+}
+
+#hakkımda img{
+    height:330px;
+    width:300px;
+}
+
+#hakkımda h3{
+    color: red;
+    font-size: 20px;
+}
+
+#hakkımda p{
+    font-size: 15px;
+    font-style: italic;
+}
+
+#hakkımda .bosluk{
+    margin-top:40px;
+}
+
+
+/* İLETİŞİM */
+
+#iletisim{
+    margin-top: 100px;
+
+}
+
+#iletisim .bosluk{
+    margin-top: 30px;
+}
+
+#iletisim img{
+    height: 80px;
+    widows: 200px;
+}
+
+#iletisim .fa{
+    font-size:40px;
+    color: red; 
+}
+
+
+
+/* Galeri */
+
+#galeri{
+    margin-top: 100px;
+}
+
+#galeri blockquote{
+    float: right;
+    color: red;
+}
+
+#galeri p{
+    margin-top: 30px;
+}
+
+#galeri img{
+    height: 300px;
+    width: 100%;
+}
+
+#galeri .row{
+    margin-top: 50px;
+}
+
+#galeri h3{
+    color: red;
+}
+
+#galeri .acıklama{
+    font-style: italic;
+    font-size: 20px; 
+}
+
+
+
+
+/* PORTFOLIO */
+
+#portfolio .resimContainer{
+    position: relative;
+    cursor:pointer;
+}
+
+#portfolio .resimOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: #1886c7;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+#portfolio .resimOverlay i{
+    font-size: 80px;
+    margin-top:50px;
+    color: black;
+}
+
+#portfolio .resimContainer:hover .resimOverlay{
+    opacity: .7;
+}
+
+#portfolio{
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+
+#portfolio img{
+    width: 100%;
+    height: 200px;
+}
+
+#portfolio .col-md-2{
+    padding-left:0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+#portfolio span{
+    color:red;
+}
+
+#portfolio p{
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+/* LRF NEDİR */
+
+#lrfnedir{
+    margin-top:70px;
+}
+
+#lrfnedir img{
+    width: 400px;
+    height: 400px;
+}
+
+#lrfnedir h5{
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+}
+
+#lrfnedir a{
+    color: #bb0000 !important; 
+}
+
+#lrfnedir p{
+    font-style: italic;
+}
+
+/* AMACIMIZ */
+
+#amacımız{
+    margin-top: 100px;
+}
+
+#amacımız img{
+    width: 300px;
+    height: 300px;
+}
+
+#amacımız h4{
+    color: red;
+    margin-bottom: 25px;
+}
+
+
+/*NEDEN LRF */
+
+#nedenlrf{
+    margin-top: 100px;
+}
+
+#nedenlrf p{
+    font-style: italic;
+}
+
+#nedenlrf h3{
+    color: #1886c7;
+}
+
+#nedenlrf .col-md-3 img{
+    height: 250px;
+    width: 250px;
+}
+
+#nedenlrf .col-md-2 img{
+    margin-right: -20px;
+    height: 110px;
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+
+/* KAMIŞ SEÇİMİ */
+
+#kamıs{
+    margin-top: 100px;
+}
+
+#kamıs h3{
+    text-align: center;
+    color:#1886c7;
+}
+
+#kamıs h4{
+    color: red;
+    font-family:  "Comic Sans MS", cursive, sans-serif;
+    
+}
+
+#kamıs img{
+    width: 300px;
+    height: 300px;
+}
+
+#kamıs blockquote{
+    color: #1886c7;
+    font-size: 15px;
+}
+
+#kamıs p{
+    margin-top: 6px;
+    font-style: italic;
+    font-size: 17px;
+}
+
+/* İp mi Misine mi? */
+
+#baslangıc{
+    margin-top:100px;
+}
+
+#ip{
+    margin-top: 50px;
+}
+
+#misine{
+    margin-top: 75px;
+}
+
+#ip img{
+    width: 300px;
+    height: 200px;
+}
+
+#misine img{
+    width: 300px;
+    height: 200px;
+}
+
+#ip,#misine{
+    font-style: italic;
+}
+
+#baslangıc h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: red;
+}
+
+#ip h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: red;
+}
+
+#misine h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: red;
+}
+
+#sonuc h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: red;
+}
+
+/* LEADER */
+
+#leader{
+    margin-top: 100px;
+}
+
+#leader img{
+    width: 300px;
+    height: 300px;
+}
+
+#leader h2{
+    color: red;
+    font-style: italic;
+}
+
+/* SUNİ YEMLER */
+
+#suniyemler{
+    margin-top: 120px;
+}
+
+#suniyemler p{
+    font-style: italic;
+    font-size: 16px;
+}
+
+#suniyemler h4{
+    font-style: italic;
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#suniyemler blockquote{
+    color: #1886c7;
+    font-style: italic;
+}
+
+#suniyemler img{
+    height: 300px;
+    width: 400px;  
+}
+
+#suniyemler .cizgi{
+    height: 2px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: gray;
+}
+
+#suniyemler .resimContainer{
+    position: relative;
+    cursor:pointer;
+}
+
+#suniyemler .resimOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: #1886c7;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+#suniyemler .resimOverlay i{
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 140px;
+    color: black;
+}
+
+#suniyemler .resimContainer:hover .resimOverlay{
+    opacity: .7;
+}
